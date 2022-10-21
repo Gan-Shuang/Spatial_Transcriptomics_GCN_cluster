@@ -2,10 +2,10 @@
 Spatial Transcriptomics Cluster
 ## Introduction
 WORKFLOW  
-1、transform Spatial Transcriptomics to anndata  
+1、Transform Spatial Transcriptomics to anndata  
 With anndata package;  
 2、SVD  
-First dimensionality reduction with SVD,faster than PCA and similar effect;  
+Preliminary dimensionality reduction ,faster than PCA and similar effect;  
 3、VAE & VGAE with GCN  
 VAE : denoise and dimensionality reduction  
 VGAE with GCN : encoding spatial features and dimensionality reduction  
