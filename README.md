@@ -2,6 +2,7 @@
 Spatial Transcriptomics Cluster
 ## Introduction
 WORKFLOW  
+  
 1、Transform Spatial Transcriptomics to anndata  
 With anndata package;  
 2、SVD  
@@ -10,7 +11,8 @@ Preliminary dimensionality reduction ,faster than PCA and similar effect;
 VAE : denoise and dimensionality reduction  
 VGAE with GCN : encoding spatial features and dimensionality reduction  
 4、Leiden cluster  
-Cluster with Leiden algorithm.
+Cluster with Leiden algorithm.  
+  
 REFERENCE  
 Hu J., Li X., Coleman K., Schroeder A., Ma N., Irwin D.J., Lee E.B., Shinohara R.T., Li M. SpaGCN: integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network. Nat. Methods. 2021; 18:1342–1351.  
 Fu H., Xu H., Chong K., Li M., Ang K.S., Lee H.K., Ling J., Chen A., Shao L., Liu L. et al. . Unsupervised spatially embedded deep representation of spatial transcriptomics. 2021; bioRxiv doi:16 June 2021, preprint: not peer reviewedhttps://doi.org/10.1101/2021.06.15.448542.  
