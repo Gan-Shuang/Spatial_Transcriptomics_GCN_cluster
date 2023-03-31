@@ -1,7 +1,7 @@
 # ST_GCN_cluster
 Spatial Transcriptomics Cluster
 ## Introduction
-WORKFLOW  
+Analysis  
   
 1、Transform Spatial Transcriptomics to anndata  
 With anndata package;  
