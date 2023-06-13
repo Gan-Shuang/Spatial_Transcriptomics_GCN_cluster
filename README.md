@@ -1,4 +1,4 @@
-# ST_GCN_cluster
+# Spatial_Transcriptomics_GCN_cluster
 Spatial Transcriptomics Cluster
 ## Introduction
 Analysis  
