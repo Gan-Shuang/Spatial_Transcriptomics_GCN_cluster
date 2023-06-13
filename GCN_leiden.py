@@ -63,7 +63,7 @@ def prepare_adata(dfs,norm_and_log=True,z_score=True,batch_correction=False):
     if sp.issparse(adata.X):
         adata.X = adata.X.toarray()
 #     sc.tl.pca(adata,n_comps=500) ##### pca_dim=500
-    ##################### 与PCA结果有区别？
+    #####################
     gene_tensor = torch.Tensor(adata.X)
     u, s, v = torch.pca_lowrank(gene_tensor,q=500)
     gene_tensor = torch.matmul(gene_tensor,v)
